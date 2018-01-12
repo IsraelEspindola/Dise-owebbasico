@@ -1,0 +1,46 @@
+body{
+	padding: 200px;
+	padding: 200px;
+}
+/*Selector de hijos */
+p>span{
+	color:gold;
+	font-size: 30px;
+}
+div>h2{
+
+	color:#604DED;
+	font-size: 40px;
+	text-align: center;
+}
+/*Selector de adyacencia*/
+h4{
+	color:blue;
+}
+h3+h4{
+	margin-right: 10px;
+}
+p+p{
+	margin-left: 60px;
+}
+/*Selector de atributos*/
+/*Quetodo lo que contenga esa etiqueta sera de color verde*/	
+a[href]{
+	color: green;
+}
+a[class="nada"]{
+	color: orange;
+}
+a [class~="otronada"]{
+	margin-left: 300px;
+}
+p[lang|="en"]{
+	margin-left: : 100px;
+	color:purple;
+}
+p[lang|="es"]
+{
+	margin-right: 200px;
+	color:red;
+	text-align: right;
+}

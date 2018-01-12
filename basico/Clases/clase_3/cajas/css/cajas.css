@@ -1,0 +1,31 @@
+div{
+	/*display: inline-block;*/
+	width: 170px;
+	background: white;
+	
+/*float: left; 
+Absolute:apartir de su contenedor padre,
+se va a posicionar
+Static:Posicionamiento por defecto de todas las etiquetas;
+Fixed:Poner un elemento en un posicion dedonde no se 
+	movera ni siquiera al usar el scrol o mouse;
+Relative:Apartir de donde la insertamos vamos a ;
+*/
+	position:;
+}
+.border{
+	background: #87BACD;
+	border: 4px dashed #632626;
+	position: absolute;
+	top: 50px;
+}
+.padding{
+	padding: 10px 20px;
+	background-color:#BD7878;
+	top:60px;
+
+}
+.margin{
+	background-color: #C2BBBB;
+	padding-left: 30px;
+}

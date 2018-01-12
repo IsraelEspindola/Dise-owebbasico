@@ -1,0 +1,60 @@
+/* selector de etiqueta*/
+body{
+background: black;
+margin: 100px;
+padding: 100px;
+height: 100;
+}
+h1{
+	color: white;/*color letra*/
+	letter-spacing: 
+	font-size: 100px;/*tamañode las letras xx-small*/
+	text-align: center;
+	background: 000099;
+	margin: 0px;
+	padding: 0px; 
+}
+li{
+display: inline;/*en una sola linea*/
+padding: 60px;
+}
+/*Selectores de clase afectan a un conjunto de etiquetas*/
+/* O lo que este dentro de la clase 
+/*Siempre inician con un punto*/
+.menu-nav{
+	text-align: left;
+	/*olor:white;*/
+
+}
+.footer{
+	position: fixed;er
+	left: 20px;
+	bottom: 10px;
+	height: 250px;
+	width: 100%;
+}
+.menu-foter{
+	text-align: center;
+	padding: 0px;/*tamaño de la caja*/
+	font-size: 0px;
+	color:black;
+	/*background:red;*/ 
+}
+/*Selector decendente*/
+/*Toda a que este en el menu tendra los atributos*/
+.menu-nav 	{
+	text-align: center;
+	padding: :0px;
+	font-size: 0px;
+	color:red;
+	/*background-color: white;*/
+}
+/*Selector ID*/
+#color{
+	color:white;
+}
+/*selector de pseudo clase*/
+/* tiene palabras reservadas*/
+a:visted{
+	color:black;
+}

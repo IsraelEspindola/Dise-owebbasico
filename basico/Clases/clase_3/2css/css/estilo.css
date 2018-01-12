@@ -1,0 +1,13 @@
+.cuadrado{
+	height:300px; /*alto*/
+	width:300px;
+	background: #DC1E42;
+}
+.color{
+	color: white;
+	background: #271BC3;
+
+}
+span{
+	font-size: 40px;
+}

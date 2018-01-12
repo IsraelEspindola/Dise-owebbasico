@@ -1,0 +1,104 @@
+body{
+	background: grey;
+	margin:0;
+	padding:0; 
+}
+.encabezado{
+	background: black;
+	padding: 1.2%;
+}
+.encabezado h1{
+	text-align: center;
+	color:white;
+	font-size: 40px;
+	text-shadow: 8px 3px 7px #C8F6F8;
+}
+.menu{
+	text-align: center;
+	color: black;
+	font-size: 20px;
+}
+.menu li{
+	/*font-size: 30px;*/
+	display:inline;
+}
+.menu a{
+	text-align: center;
+	color:black;
+	font-size: 20px;
+	margin:2%;
+	background-color: red;
+	display:inline-block;
+	padding: .5%;
+	
+	text-decoration: none;
+	
+	width: 250px;
+}
+.menu li:hover a{
+	background: white;/*Cambiar decolor */
+}
+
+.texto{
+	text-align: center;
+	padding-left: 20px;
+}
+.texto li{
+	color:#6A0C0C;
+	text-align: left;
+	font-size: 30px;
+}
+
+.redes{
+	text-align: center;
+	background: #4A4856;
+
+}
+.redes li{
+	display: inline;
+}
+.redes a{
+	text-align: center;
+	font-size: 20px;
+	background-color: #A36E98;
+	margin:4%;
+	display:inline-block;
+	width: 120px;
+	padding: .3%;
+	text-decoration: none; 
+}
+.hist h3{
+	color:white;
+	text-align: center;
+	text-shadow: 4px 6px 2px black;
+	font-size: 40px;
+
+}
+.hist li{
+	color: black;
+	font-size:35px; 
+	text-align: left;
+}
+.hob h3{
+	color:black;
+	text-align: center;
+	text-shadow: 4px 6px 2px red;
+	font-size: 40px;
+}
+.hob{
+	text-align: center;
+}
+.hob p{
+	text-align: center;
+	color:black;
+	font-size: 25px;
+}
+
+.hob li{
+	display: inline;
+	color:pink;
+	text-shadow: 3px 4px 2px black;
+	font-size:30px;
+	margin:2%;
+	text-align: center; 
+}

@@ -1,0 +1,52 @@
+body{
+	background: #EF3636;
+}
+h1{
+	font-size: 80px;
+	color:#623754;
+	text-align: center;
+}
+h1>h2{
+	color: #910101;
+	font-size: 50px;
+	text-align:center;
+}
+li{
+	font-size: 50px;
+	color:gold;
+}
+img{
+	width: 290px;
+	height: 200px;
+	padding-left: 80px;
+}
+h3{
+	color: #910101;
+	font-size: 50px;
+	text-align:center;
+}
+img+img{
+	width: 260px;
+	height: 200px;
+	padding-left: :70px;
+}
+p{
+	color: #EBB7B7;
+	font-size: 25px;
+	text-align: left;
+}
+a[href]{
+	font-size: 32px;
+	color:#1C0619;
+}
+.redes{
+	text-align: center;	
+	font-size: 60px;
+	padding-left: 30px;
+	background: #F60062;
+}
+p[lang|="es"]{
+	margin-left: 10px;
+	color: #5F0294;
+	
+}
